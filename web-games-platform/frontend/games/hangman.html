@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangman - ArcadeHub</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+        .game-container {
+            max-width: 500px;
+            margin: 2rem auto;
+            text-align: center;
+        }
+
+        .word {
+            font-size: 2rem;
+            letter-spacing: 0.5rem;
+            margin: 1rem 0;
+        }
+
+        .hangman-drawing {
+            font-family: monospace;
+            font-size: 1.2rem;
+            white-space: pre;
+            margin: 1rem 0;
+        }
+
+        .letters {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 0.5rem;
+            margin: 1rem 0;
+        }
+
+        .letter {
+            background: #e2e8f0;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        body.dark .letter {
+            background: #334155;
+        }
+
+        .letter.used {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        .message {
+            margin: 1rem 0;
+            font-size: 1.2rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo"><a href="../index.html" style="text-decoration:none; color:inherit;">← ArcadeHub</a></div>
+        <div class="nav-actions">
+            <button class="btn-icon" id="darkModeToggle"><i class="fas fa-moon"></i></button>
+        </div>
+    </div>
+
+    <div class="container game-container">
+        <h1>Hangman</h1>
+        <div class="hangman-drawing" id="hangmanDrawing"></div>
+        <div class="word" id="wordDisplay"></div>
+        <div class="letters" id="letters"></div>
+        <div class="message" id="message"></div>
+        <button class="btn-neon" id="restart">New Game</button>
+    </div>
+
+    <script src="../js/api.js"></script>
+    <script src="../js/games/hangman.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tic Tac Toe - ArcadeHub</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+    .game-container {
+      max-width: 500px;
+      margin: 2rem auto;
+      text-align: center;
+    }
+
+    .board {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+      background: #1e293b;
+      padding: 1rem;
+      border-radius: 24px;
+    }
+
+    .cell {
+      aspect-ratio: 1;
+      background: white;
+      border-radius: 16px;
+      font-size: 3rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      font-weight: bold;
+      transition: 0.1s;
+    }
+
+    body.dark .cell {
+      background: #334155;
+      color: white;
+    }
+
+    .cell.taken {
+      cursor: not-allowed;
+    }
+
+    .status {
+      margin: 1rem 0;
+      font-size: 1.3rem;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div class="navbar">
+    <div class="logo"><a href="../index.html" style="text-decoration:none; color:inherit;">← ArcadeHub</a></div>
+    <div class="nav-actions">
+      <button class="btn-icon" id="darkModeToggle"><i class="fas fa-moon"></i></button>
+    </div>
+  </div>
+
+  <div class="container game-container">
+    <h1>Tic Tac Toe</h1>
+    <div class="board" id="board">
+      <!-- 9 cells -->
+    </div>
+    <div class="status" id="status">Your turn (X)</div>
+    <button class="btn-neon" id="restart">Restart</button>
+  </div>
+
+  <script src="../js/api.js"></script>
+  <script src="../js/games/tictactoe.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,410 @@
+{
+  "users": [
+    {
+      "id": "1774686271725",
+      "username": "Ad",
+      "gamesPlayed": 1,
+      "createdAt": "2026-03-28T08:24:31.726Z"
+    },
+    {
+      "id": "1775489728178",
+      "username": "Anish",
+      "gamesPlayed": 48,
+      "createdAt": "2026-04-06T15:35:28.178Z"
+    }
+  ],
+  "scores": [
+    {
+      "id": "1774686290496",
+      "userId": "1774686271725",
+      "username": "Ad",
+      "gameId": "snake",
+      "score": 1,
+      "date": "2026-03-28T08:24:50.496Z"
+    },
+    {
+      "id": "1775489741013",
+      "userId": "1775489728178",
+      "username": "Anish",
+      "gameId": "connect4",
+      "score": 3,
+      "date": "2026-04-06T15:35:41.013Z"
+    },
+    {
+      "id": "1775489758395",
+      "userId": "1775489728178",
+      "username": "Anish",
+      "gameId": "rps",
+      "score": 0,
+      "date": "2026-04-06T15:35:58.395Z"
+    },
+    {
+      "id": "1775489775836",
+      "userId": "1775489728178",
+      "username": "Anish",
+      "gameId": "rps",
+      "score": 3,
+      "date": "2026-04-06T15:36:15.836Z"
+    },
+    {
+      "id": "1775489786192",
+      "userId": "1775489728178",
+      "username": "Anish",
+      "gameId": "rps",
+      "score": 3,
+      "date": "2026-04-06T15:36:26.192Z"
+    },
+    {
+      "id": "1775489795104",
+      "userId": "1775489728178",
+      "username": "Anish",
+      "gameId": "rps",
+      "score": 0,
+      "date": "2026-04-06T15:36:35.104Z"
+    },
+    {
+      "id": "1775489808852",
+      "userId": "1775489728178",
+      "username": "Anish",
+      "gameId": "rps",
+      "score": 0,
+      "date": "2026-04-06T15:36:48.852Z"
+    },
+    {
+      "id": "1775489818003",
+      "userId": "1775489728178",
+      "username": "Anish",
+      "gameId": "rps",
+      "score": 3,
+      "date": "2026-04-06T15:36:58.003Z"
+    },
+    {
+      "id": "1775489833997",
+      "userId": "1775489728178",
+      "username": "Anish",
+      "gameId": "rps",
+      "score": 3,
+      "date": "2026-04-06T15:37:13.997Z"
+    },
+    {
+      "id": "1775489840454",
+      "userId": "1775489728178",
+      "username": "Anish",
+      "gameId": "rps",
+      "score": 3,
+      "date": "2026-04-06T15:37:20.454Z"
+    },
+    {
+      "id": "1775489850165",
+      "userId": "1775489728178",
+      "username": "Anish",
+      "gameId": "rps",
+      "score": 3,
+      "date": "2026-04-06T15:37:30.165Z"
+    },
+    {
+      "id": "1775489860947",
+      "userId": "1775489728178",
+      "username": "Anish",
+      "gameId": "rps",
+      "score": 3,
+      "date": "2026-04-06T15:37:40.947Z"
+    },
+    {
+      "id": "1775489892211",
+      "userId": "1775489728178",
+      "username": "Anish",
+      "gameId": "tic-tac-toe",
+      "score": 3,
+      "date": "2026-04-06T15:38:12.211Z"
+    },
+    {
+      "id": "1775489932899",
+      "userId": "1775489728178",
+      "username": "Anish",
+      "gameId": "hangman",
+      "score": 0,
+      "date": "2026-04-06T15:38:52.899Z"
+    },
+    {
+      "id": "1775489955853",
+      "userId": "1775489728178",
+      "username": "Anish",
+      "gameId": "hangman",
+      "score": 1,
+      "date": "2026-04-06T15:39:15.853Z"
+    },
+    {
+      "id": "1775490019583",
+      "userId": "1775489728178",
+      "username": "Anish",
+      "gameId": "hangman",
+      "score": 1,
+      "date": "2026-04-06T15:40:19.583Z"
+    },
+    {
+      "id": "1775490031097",
+      "userId": "1775489728178",
+      "username": "Anish",
+      "gameId": "flappy",
+      "score": 0,
+      "date": "2026-04-06T15:40:31.097Z"
+    },
+    {
+      "id": "1775490037231",
+      "userId": "1775489728178",
+      "username": "Anish",
+      "gameId": "flappy",
+      "score": 0,
+      "date": "2026-04-06T15:40:37.231Z"
+    },
+    {
+      "id": "1775490040909",
+      "userId": "1775489728178",
+      "username": "Anish",
+      "gameId": "flappy",
+      "score": 0,
+      "date": "2026-04-06T15:40:40.909Z"
+    },
+    {
+      "id": "1775490044640",
+      "userId": "1775489728178",
+      "username": "Anish",
+      "gameId": "flappy",
+      "score": 0,
+      "date": "2026-04-06T15:40:44.640Z"
+    },
+    {
+      "id": "1775490049826",
+      "userId": "1775489728178",
+      "username": "Anish",
+      "gameId": "flappy",
+      "score": 0,
+      "date": "2026-04-06T15:40:49.826Z"
+    },
+    {
+      "id": "1775490055345",
+      "userId": "1775489728178",
+      "username": "Anish",
+      "gameId": "flappy",
+      "score": 0,
+      "date": "2026-04-06T15:40:55.345Z"
+    },
+    {
+      "id": "1775490110531",
+      "userId": "1775489728178",
+      "username": "Anish",
+      "gameId": "whack",
+      "score": 5,
+      "date": "2026-04-06T15:41:50.531Z"
+    },
+    {
+      "id": "1775491329004",
+      "userId": "1775489728178",
+      "username": "Anish",
+      "gameId": "snake",
+      "score": 45,
+      "date": "2026-04-06T16:02:09.004Z"
+    },
+    {
+      "id": "1775491456186",
+      "userId": "1775489728178",
+      "username": "Anish",
+      "gameId": "snake",
+      "score": 25,
+      "date": "2026-04-06T16:04:16.186Z"
+    },
+    {
+      "id": "1775491476421",
+      "userId": "1775489728178",
+      "username": "Anish",
+      "gameId": "snake",
+      "score": 4,
+      "date": "2026-04-06T16:04:36.421Z"
+    },
+    {
+      "id": "1775491614307",
+      "userId": "1775489728178",
+      "username": "Anish",
+      "gameId": "snake",
+      "score": 33,
+      "date": "2026-04-06T16:06:54.307Z"
+    },
+    {
+      "id": "1775491642105",
+      "userId": "1775489728178",
+      "username": "Anish",
+      "gameId": "snake",
+      "score": 7,
+      "date": "2026-04-06T16:07:22.105Z"
+    },
+    {
+      "id": "1775491714973",
+      "userId": "1775489728178",
+      "username": "Anish",
+      "gameId": "snake",
+      "score": 24,
+      "date": "2026-04-06T16:08:34.973Z"
+    },
+    {
+      "id": "1775491738239",
+      "userId": "1775489728178",
+      "username": "Anish",
+      "gameId": "snake",
+      "score": 7,
+      "date": "2026-04-06T16:08:58.239Z"
+    },
+    {
+      "id": "1775491838999",
+      "userId": "1775489728178",
+      "username": "Anish",
+      "gameId": "snake",
+      "score": 28,
+      "date": "2026-04-06T16:10:38.999Z"
+    },
+    {
+      "id": "1775491901732",
+      "userId": "1775489728178",
+      "username": "Anish",
+      "gameId": "snake",
+      "score": 16,
+      "date": "2026-04-06T16:11:41.732Z"
+    },
+    {
+      "id": "1775492025067",
+      "userId": "1775489728178",
+      "username": "Anish",
+      "gameId": "snake",
+      "score": 35,
+      "date": "2026-04-06T16:13:45.067Z"
+    },
+    {
+      "id": "1775492031271",
+      "userId": "1775489728178",
+      "username": "Anish",
+      "gameId": "snake",
+      "score": 0,
+      "date": "2026-04-06T16:13:51.271Z"
+    },
+    {
+      "id": "1775492247381",
+      "userId": "1775489728178",
+      "username": "Anish",
+      "gameId": "snake",
+      "score": 51,
+      "date": "2026-04-06T16:17:27.381Z"
+    },
+    {
+      "id": "1775492368669",
+      "userId": "1775489728178",
+      "username": "Anish",
+      "gameId": "snake",
+      "score": 30,
+      "date": "2026-04-06T16:19:28.669Z"
+    },
+    {
+      "id": "1775492417869",
+      "userId": "1775489728178",
+      "username": "Anish",
+      "gameId": "snake",
+      "score": 7,
+      "date": "2026-04-06T16:20:17.869Z"
+    },
+    {
+      "id": "1775492425776",
+      "userId": "1775489728178",
+      "username": "Anish",
+      "gameId": "snake",
+      "score": 1,
+      "date": "2026-04-06T16:20:25.776Z"
+    },
+    {
+      "id": "1775492452797",
+      "userId": "1775489728178",
+      "username": "Anish",
+      "gameId": "snake",
+      "score": 8,
+      "date": "2026-04-06T16:20:52.797Z"
+    },
+    {
+      "id": "1775492618668",
+      "userId": "1775489728178",
+      "username": "Anish",
+      "gameId": "flappy",
+      "score": 0,
+      "date": "2026-04-06T16:23:38.668Z"
+    },
+    {
+      "id": "1775492622818",
+      "userId": "1775489728178",
+      "username": "Anish",
+      "gameId": "flappy",
+      "score": 0,
+      "date": "2026-04-06T16:23:42.818Z"
+    },
+    {
+      "id": "1775492631151",
+      "userId": "1775489728178",
+      "username": "Anish",
+      "gameId": "flappy",
+      "score": 2,
+      "date": "2026-04-06T16:23:51.151Z"
+    },
+    {
+      "id": "1775492804410",
+      "userId": "1775489728178",
+      "username": "Anish",
+      "gameId": "flappy",
+      "score": 0,
+      "date": "2026-04-06T16:26:44.410Z"
+    },
+    {
+      "id": "1775492810111",
+      "userId": "1775489728178",
+      "username": "Anish",
+      "gameId": "flappy",
+      "score": 0,
+      "date": "2026-04-06T16:26:50.111Z"
+    },
+    {
+      "id": "1775492821345",
+      "userId": "1775489728178",
+      "username": "Anish",
+      "gameId": "flappy",
+      "score": 0,
+      "date": "2026-04-06T16:27:01.345Z"
+    },
+    {
+      "id": "1775492923852",
+      "userId": "1775489728178",
+      "username": "Anish",
+      "gameId": "flappy",
+      "score": 0,
+      "date": "2026-04-06T16:28:43.852Z"
+    },
+    {
+      "id": "1775492931306",
+      "userId": "1775489728178",
+      "username": "Anish",
+      "gameId": "flappy",
+      "score": 0,
+      "date": "2026-04-06T16:28:51.306Z"
+    },
+    {
+      "id": "1775492940717",
+      "userId": "1775489728178",
+      "username": "Anish",
+      "gameId": "flappy",
+      "score": 0,
+      "date": "2026-04-06T16:29:00.717Z"
+    },
+    {
+      "id": "1775493032633",
+      "userId": "1775489728178",
+      "username": "Anish",
+      "gameId": "whack",
+      "score": 13,
+      "date": "2026-04-06T16:30:32.633Z"
+    }
+  ]
+}

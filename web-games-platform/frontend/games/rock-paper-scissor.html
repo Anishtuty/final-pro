@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors - ArcadeHub</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+        .game-container {
+            max-width: 500px;
+            margin: 2rem auto;
+            text-align: center;
+        }
+
+        .choices {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+
+        .choice {
+            background: #f1f5f9;
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 3rem;
+            cursor: pointer;
+            transition: 0.2s;
+        }
+
+        body.dark .choice {
+            background: #334155;
+        }
+
+        .choice:hover {
+            transform: scale(1.05);
+            background: #e2e8f0;
+        }
+
+        .result {
+            font-size: 1.2rem;
+            margin: 1rem 0;
+        }
+
+        .scoreboard {
+            display: flex;
+            justify-content: space-between;
+            max-width: 300px;
+            margin: 1rem auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo"><a href="../index.html" style="text-decoration:none; color:inherit;">← ArcadeHub</a></div>
+        <div class="nav-actions">
+            <button class="btn-icon" id="darkModeToggle"><i class="fas fa-moon"></i></button>
+        </div>
+    </div>
+
+    <div class="container game-container">
+        <h1>Rock Paper Scissors</h1>
+        <div class="scoreboard">
+            <div>You: <span id="playerScore">0</span></div>
+            <div>Computer: <span id="computerScore">0</span></div>
+        </div>
+        <div class="choices">
+            <div class="choice" data-choice="rock">✊</div>
+            <div class="choice" data-choice="paper">📄</div>
+            <div class="choice" data-choice="scissors">✂️</div>
+        </div>
+        <div class="result" id="result"></div>
+        <button class="btn-neon" id="restart">Restart</button>
+    </div>
+
+    <script src="../js/api.js"></script>
+    <script src="../js/games/rock-paper-scissor.js"></script>
+</body>
+
+</html>
