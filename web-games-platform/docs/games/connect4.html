@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connect Four - ArcadeHub</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+        .game-container {
+            max-width: 700px;
+            margin: 2rem auto;
+            text-align: center;
+        }
+
+        .board {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            background: #1e293b;
+            border-radius: 20px;
+            padding: 10px;
+            gap: 5px;
+            margin: 1rem 0;
+        }
+
+        .cell {
+            aspect-ratio: 1;
+            background: #f1f5f9;
+            border-radius: 50%;
+            cursor: pointer;
+            transition: 0.1s;
+        }
+
+        body.dark .cell {
+            background: #334155;
+        }
+
+        .board .cell.red {
+            background: #ef4444;
+        }
+
+        .board .cell.yellow {
+            background: #eab308;
+        }
+
+        .status {
+            font-size: 1.2rem;
+            margin: 1rem 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo"><a href="../index.html" style="text-decoration:none; color:inherit;">← ArcadeHub</a></div>
+        <div class="nav-actions">
+            <button class="btn-icon" id="darkModeToggle"><i class="fas fa-moon"></i></button>
+        </div>
+    </div>
+
+    <div class="container game-container">
+        <h1>Connect Four</h1>
+        <div class="board" id="board"></div>
+        <div class="status" id="status">Your turn (🔴)</div>
+        <button class="btn-neon" id="restart">Restart</button>
+    </div>
+
+    <script src="../js/api.js"></script>
+    <script src="../js/games/connect4.js"></script>
+</body>
+
+</html>

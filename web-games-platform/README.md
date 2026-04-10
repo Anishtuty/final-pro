@@ -33,6 +33,12 @@ npm start
 ### 3. Open in browser
 Navigate to [http://localhost:3001](http://localhost:3001)
 
+## GitHub Pages Deployment
+To deploy this project to GitHub Pages:
+1. In repository Settings > Pages, set the source to the `main` branch and the `docs/` folder.
+2. The static site files are now in `docs/`, including `docs/index.html`.
+3. GitHub Pages only hosts the frontend; the backend (`backend/`) cannot run on Pages.
+
 ## Project Structure
 
 ```

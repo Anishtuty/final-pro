@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Memory Match - ArcadeHub</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+    .game-container {
+      max-width: 600px;
+      margin: 2rem auto;
+      text-align: center;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 10px;
+      margin: 1rem 0;
+    }
+
+    .card {
+      aspect-ratio: 1;
+      background: #3b82f6;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2rem;
+      cursor: pointer;
+      transition: 0.2s;
+    }
+
+    .card.flipped {
+      background: white;
+      color: #1e293b;
+    }
+
+    body.dark .card.flipped {
+      background: #334155;
+      color: white;
+    }
+
+    .score {
+      font-size: 1.2rem;
+      margin: 1rem 0;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="navbar">
+    <div class="logo"><a href="../index.html" style="text-decoration:none; color:inherit;">← ArcadeHub</a></div>
+    <div class="nav-actions">
+      <button class="btn-icon" id="darkModeToggle"><i class="fas fa-moon"></i></button>
+    </div>
+  </div>
+
+  <div class="container game-container">
+    <h1>Memory Match</h1>
+    <div class="score">Moves: <span id="moves">0</span> | Matches: <span id="matches">0</span></div>
+    <div class="grid" id="grid"></div>
+    <button class="btn-neon" id="restart">New Game</button>
+  </div>
+
+  <script src="../js/api.js"></script>
+  <script src="../js/games/memory.js"></script>
+</body>
+
+</html>

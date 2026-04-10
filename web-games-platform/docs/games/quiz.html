@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Mania - ArcadeHub</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+    .game-container {
+      max-width: 600px;
+      margin: 2rem auto;
+      text-align: center;
+    }
+
+    .question {
+      font-size: 1.3rem;
+      margin: 1rem 0;
+    }
+
+    .options {
+      display: flex;
+      flex-direction: column;
+      gap: 0.8rem;
+      margin: 1rem 0;
+    }
+
+    .option {
+      background: #e2e8f0;
+      padding: 0.8rem;
+      border-radius: 40px;
+      cursor: pointer;
+      transition: 0.2s;
+    }
+
+    body.dark .option {
+      background: #334155;
+    }
+
+    .option:hover {
+      background: #cbd5e1;
+    }
+
+    .score {
+      font-size: 1.2rem;
+      margin: 1rem 0;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="navbar">
+    <div class="logo"><a href="../index.html" style="text-decoration:none; color:inherit;">← ArcadeHub</a></div>
+    <div class="nav-actions">
+      <button class="btn-icon" id="darkModeToggle"><i class="fas fa-moon"></i></button>
+    </div>
+  </div>
+
+  <div class="container game-container">
+    <h1>Quiz Mania</h1>
+    <div class="score">Score: <span id="score">0</span> / <span id="total">5</span></div>
+    <div class="question" id="question"></div>
+    <div class="options" id="options"></div>
+    <button class="btn-neon" id="restart">Restart</button>
+  </div>
+
+  <script src="../js/api.js"></script>
+  <script src="../js/games/quiz.js"></script>
+</body>
+
+</html>
