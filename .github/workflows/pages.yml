@@ -27,7 +27,7 @@ jobs:
           mkdir -p public
           cp -a web-games-platform/docs/. public/
           echo '' > public/.nojekyll
-      - uses: actions/upload-pages-artifact@v1
+      - uses: actions/upload-pages-artifact@v2
         with:
           path: public
-      - uses: actions/deploy-pages@v1
+      - uses: actions/deploy-pages@v2
