@@ -35,7 +35,8 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4 
         - name: Upload artifact
+       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # Change '.' to the name of your folder if your index.html isn't in the root
-          path: './your-folder-name'# Updating to v4 is recommended
+          # Replace 'frontend' with the actual name of your folder
+          path: './frontend'
